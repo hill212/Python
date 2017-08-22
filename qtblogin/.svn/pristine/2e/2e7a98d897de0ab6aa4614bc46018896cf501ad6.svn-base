@@ -1,0 +1,46 @@
+卷 Work 的文件夹 PATH 列表
+卷序列号为 CA69-402C
+E:\TESTDEV\TESTCODE\QTBLOGIN
+│  main.py                                          //主函数
+│          
+├─config                                            //config层
+│  │  config.ini                                       ---配置主路径，让代码中路径可兼容windows和linux运行环境
+│  │  globalparam.py
+│  
+├─data                                              //data层：存放数据文件，可以把所有的testcase的参数化相关的文件放到这里
+│  └─testdata
+|
+├─log                                               //log层：存放所有生成的日志，可将日志分类，入运行日志、错误日志
+│     
+|─report                                            //report层：存放运行用例所生成的测试报告html报告
+│  ├─download
+│  ├─image
+│  └─testreport
+└─src                                               //源码层
+    │
+    ├─test                                             //test层，存放所有测试相关文件
+    │  │
+    │  ├─case                                          ---存放所有测试用例
+    │  │  │  start_login.py
+    │  │  
+    │  ├─common                                        ---项目相关的抽象通用代码
+    │  │  │  driver.py
+    │  │  │  function.py
+    │  │  │  geckodriver.log
+    │  │  │  login.py
+    │  │  │  logout.py
+    │  │  │  myunit.py
+    │  │  
+    │  ├─page                                          ---存放页面类，Page-Object思想
+    │  │  │  basePage.py
+    │  │  │  loginPage.py
+    │  │  
+    │  ├─suite                                         ---组织的测试套件
+    │  │      discrover.py
+    │ 
+    ├─utils                                          //所有支撑代码，读取config的类，写log的类，生成报告的类，发送邮件，连接数据库等
+    │  │  log.py
+    │  │  readconfig.py
+    │  │  sendmail.py
+    │  │  sendmailatt.py
+

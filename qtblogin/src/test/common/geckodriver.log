@@ -1,0 +1,21 @@
+1487755973668	geckodriver	INFO	Listening on 127.0.0.1:53076
+1487755975195	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.8VRIJUaMXhZI
+1487755975197	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1487755975204	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36835
+Xlib:  extension "RANDR" missing on display ":1081".
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1081.
+1487918755791	geckodriver	INFO	Listening on 127.0.0.1:45220
+1487918755923	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.g1Vz6ll6ogXh
+1487918755924	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1487918755927	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36313
+Xlib:  extension "RANDR" missing on display ":1021".
+1487918783444	geckodriver	INFO	Listening on 127.0.0.1:54800
+1487918783573	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.RGrE7yMufy2Y
+1487918783574	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1487918783577	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46590
+Xlib:  extension "RANDR" missing on display ":1025".
+1487922133697	geckodriver	INFO	Listening on 127.0.0.1:38847
+1487922133831	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.egLz5zyJtRwr
+1487922133833	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1487922133837	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37588
+Xlib:  extension "RANDR" missing on display ":1029".

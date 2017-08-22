@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2017-07-17 17:32:40
+# @Author  : zhangbs
+
+
+import requests
+import json
+import unittest
+from src.test.common import myunit, function
+from src.test.page.loginPage import login
+
+
+class alianapi_test(myunit.MyTest):
+    '''alianA端api接口测试类'''
+
+    def setUp(self):
+        print("start test")
+        pass
+
+    def test_alianapi_login(self):
+        '''登录接口'''
+        url = 'http://114.55.100.235:6001/login/pwd?agentno=zhangbs@infobird.cn&password=123456'
+        r = requests.get(url)
+        jsontext = r.text
+        self.assertEqual(r.status_code, 200)
+        json_to_python = json.loads(jsontext)
+        msg = (json_to_python['msg'])
+        self.assertEqual(msg, '登录成功')
+        print(jsontext)
+
+    def tearDown(self):  # 与setUp()相对
+        print("end test")
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main()
